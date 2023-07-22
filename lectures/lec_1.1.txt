@@ -1,0 +1,10 @@
+GitHub
+
+version control system
+
+python-3.11.4
+
+--> versioning is used for nbringing updates, new feature, bug fixing and security changes in application
+--> working on software as team
+--> take your copy of code --> work on that --> commit your changes --> push your changes --> all changes in a central repository
+--> team lead --> review your code --> if he/she allows you can merge your code --> final feature
