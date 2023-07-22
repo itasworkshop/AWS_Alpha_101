@@ -8,3 +8,77 @@ python-3.11.4
 --> working on software as team
 --> take your copy of code --> work on that --> commit your changes --> push your changes --> all changes in a central repository
 --> team lead --> review your code --> if he/she allows you can merge your code --> final feature
+
+commands
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101
+$ git init
+Initialized empty Git repository in C:/Development/AWS_Alpha_101/.git/
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TOC.txt
+        assessment/
+        assignments/
+        books/
+        lectures/
+        ppts/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (master)
+$ git add .
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   TOC.txt
+        new file:   assessment/lec_1.1.txt
+        new file:   assignments/lec_1.1.txt
+        new file:   books/lec_1.1.txt
+        new file:   lectures/lec_1.1.txt
+        new file:   ppts/lec_1.1.txt
+
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (master)
+$ git commit -m "22 July"
+[master (root-commit) 15889b8] 22 July
+ 6 files changed, 10 insertions(+)
+ create mode 100644 TOC.txt
+ create mode 100644 assessment/lec_1.1.txt
+ create mode 100644 assignments/lec_1.1.txt
+ create mode 100644 books/lec_1.1.txt
+ create mode 100644 lectures/lec_1.1.txt
+ create mode 100644 ppts/lec_1.1.txt
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (master)
+$ git branch -M main
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (main)
+$ git remote add origin https://github.com/itasworkshop/AWS_Alpha_101.git
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 645 bytes | 215.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/itasworkshop/AWS_Alpha_101.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AWS_Alpha_101 (main)
+
+
