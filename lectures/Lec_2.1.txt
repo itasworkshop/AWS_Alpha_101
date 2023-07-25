@@ -1,0 +1,50 @@
+Cloud Computing
+
+Computing
+- Application
+- Storage/file storage
+- Database
+- Network
+
+Cloud
+- we are not owner
+- we donn't have to do admin/installing/uninstalling/patching etc
+- we donn't have to buy and manage underlying hardware
+- we donn't have to manage or worry about security
+- we donn't have to manage networking
+
+- IAAS --> Infrastrusture As a Service
+- PAAS --> Platform As a service
+- SAAS --> Software As a service
+
+-- Pay per use
+-- On Demand service
+
+Scaling
+Scale up/Scale Down is easy
+provinding services and resources in such a manner that when there is high demand we should be capable of fulfilling dynamically.
+
+Vendors
+1) AWS - amazon
+2) Azure - microsoft
+3) GCloud - Google
+4) Ali Baba Cloud - Ali Baba
+5) Apple Cloud - Apple
+6) Oracle cloud - Oracle
+
+Services
+IAM
+EC2
+S3
+RDS
+Lambda
+
+
+
+
+
+
+
+
+
+
