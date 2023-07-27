@@ -1,0 +1,20 @@
+EC2 --> Elastic Computing Cloud --> EC2 is server of any OS
+
+Client-Server Architecture
+a system that hosts, delivers, and manages most of the resources and services that the client requests.
+
+
+client --> 
+client is some entity which is requesting for web resources
+user/user system/browser
+
+server -->
+hardware --> server is comparatively powerful machine than your laptop
+software --> enetity which is responsible for entertaining request coming from client
+
+1) EC2 instance --> default settings
+key value pair --> ppk
+2) When you lauch it does not allow you to connect immediatly
+3) change security group rules to allow inbound and outbound traffic from all IPV4 addess.
+4) Go to list of instances and sect your instance and connect
+5) If connect success it shows Your virtual machine into browser.
