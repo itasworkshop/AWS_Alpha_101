@@ -1,0 +1,20 @@
+S3 Bucket --> Scalable Storage Service
+
+Scalable --> the capacity to increase or decrease the storage system as per demand
+Storage --> unit of data storage/disk in normal
+Service --> As per demand, cost and security
+
+
+Bucket --> drive on cloud
+
+object
+Every object in S3 is stored in a bucket.
+
+access control lists (ACLs) is disabled by default, allowing other aws accont to have ownership of same bucket.
+
+create bucket with policy
+create object
+create folder
+upload/download files
+URI --> what you need to note access or devloper access.
+URL --> access for public
