@@ -18,3 +18,22 @@ create folder
 upload/download files
 URI --> what you need to note access or devloper access.
 URL --> access for public
+
+sample policy for making bucket object public access.
+
+{
+    "Statement": [
+        {
+            "Sid": "AllowPublicRead",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::myawsdemobucket1/*"
+        }
+    ]
+}
+
+or use aws policy generator 
+https://awspolicygen.s3.amazonaws.com/policygen.html
