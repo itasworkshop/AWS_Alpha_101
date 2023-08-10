@@ -1,0 +1,36 @@
+RDS --> Relational Database Service
+
+very similar to traditional databases like mysql, oracle, sql etc.
+
+database management system --> software which is used to manage or data
+data --> Tabular form --> rows and columns
+
+student Table
+rollno	name	marks	dept_id
+111	Rajesh	75	09
+222	Suraj	83	08
+
+department
+dept_id		dept_name	loc
+09		IT		block-A
+08		HR		block_A
+
+RDS is relational database service in cloud.
+
+Steps
+1 get mysql workbench
+https://dev.mysql.com/downloads/workbench/
+2 new connection
+give connection parameters
+Endpoint
+database-2.csfi8dafffzc.eu-north-1.rds.amazonaws.com
+Port
+3306
+datadata123
+
+Note:
+1. Make sure security group inbound rules are accepting all traffic.
+2. Modify database to accept public accessiblity and apply immediatly chech screenshot.
+
+Relational --> one db table is related to another database table
+
