@@ -1,0 +1,17 @@
+IAM --> Identity and Access Management
+
+AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources.
+
+User Group
+--> an umbrella term having collection of settings or permissions to assign more than one user
+example --> 4 testers in company having similar access to resources under "Tester" group
+
+User
+user are different from root user with only assigned access and permission and policies
+
+Demo
+we created user dev-1 under group developers group which has permission only to EC2 and S3
+so when we enable console login and provide password we can sign in and access to only assigned group permissioned services(S3 and EC2) and access to other services gives us Error.
+
+
+
